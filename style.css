@@ -35,3 +35,21 @@ background: #f2fbf1;
 border-top-left-radius: 90px;
 border-top-right-radius: 90px;
 }
+#spooky #body:before,
+#spooky #body:after {
+content: '';
+position: absolute;
+top: 130px;
+display:inline-block;
+width: 36px;
+height: 36px;
+border-radius: 50%;
+background:#f2fbf1 ;
+animation: floaty .2s infinite;
+}
+#spooky #body:before {
+    left: -18px;
+}
+#spooky #body:after {
+    right: -18px;
+}
