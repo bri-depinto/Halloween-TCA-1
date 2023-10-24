@@ -86,4 +86,20 @@ animation: floaty .2s infinite;
     width: 10px;
     height: 10px;
  }
+ #spooky #body #feet {
+    position: absolute;
+    display: flex;
+    bottom: -18px;
+    width: 180px;
+    height: 36px;
+ }
+ #spooky #body #feet > *,
+ #spooky #body #feet::before,
+ #spooky #body #feet::after {
+    content: '';
+    width: 36px;
+    height: 36px;
+    background: white;
+    border-radius: 50%;
+ }
  
