@@ -131,17 +131,17 @@ animation: floaty .2s infinite;
 
 
  .circular-sb {
-    width: 250px;
-    border: 5px solid rgb(45, 9, 70);
+    width: 260px;
+    border: 6px solid rgb(45, 9, 70);
     padding: 80px 0px;
     margin: -500px auto;
     border-radius: 50%;
     text-align: center;
-    font-size: 24px;
-    font-weight: 900;
-    font-family: arial;
+    font-size: 25px;
+    font-weight: 0;
+    font-family: Butcherman;
     position: relative;
-    color: white;
+    color: black;
   }
   
   .circle3 {
