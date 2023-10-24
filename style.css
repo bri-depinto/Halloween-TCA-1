@@ -53,3 +53,37 @@ animation: floaty .2s infinite;
 #spooky #body:after {
     right: -18px;
 }
+#spooky #body #eyes {
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 90px 0 0;
+    width: 90px; 
+    height: 20px;
+}
+#spooky #body #eyes:before,
+#spooky #body #eyes:after {
+    content: ''; 
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: black; 
+    border-radius: 50%;
+}
+ #spooky #body #mouth {
+    background: black;
+    margin: 25px auto 0;
+    width: 60px;
+    height: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+ }
+ #spooky #body #mouth:before {
+    content: '';
+    display:block;
+    background: white;
+    margin-left: 20px;
+    width: 10px;
+    height: 10px;
+ }
+ 
