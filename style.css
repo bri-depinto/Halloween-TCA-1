@@ -6,14 +6,14 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0;
-    background: #9eee2d ;
+    background: #ffa90a ;
 }
 #container {
     width:400px;
     height:400px;
     padding:0;
     box-sizing:border-box;
-    background-color:#9eee2d;
+    background-color:#ffa90a;
 }
 *:after,
 *:before {
@@ -31,7 +31,7 @@ position: relative;
 margin: 50px auto 0;
 width: 180px;
 height: 220px;
-background: #f2fbf1;
+background: white;
 border-top-left-radius: 90px;
 border-top-right-radius: 90px;
 }
@@ -44,7 +44,7 @@ display:inline-block;
 width: 36px;
 height: 36px;
 border-radius: 50%;
-background:#f2fbf1 ;
+background:white ;
 animation: floaty .2s infinite;
 }
 #spooky #body:before {
@@ -142,6 +142,8 @@ animation: floaty .2s infinite;
     font-family: Butcherman;
     position: relative;
     color: black;
+    left:305px;
+    bottom:0px;
   }
   
   .circle3 {
