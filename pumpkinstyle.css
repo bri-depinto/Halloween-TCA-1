@@ -78,3 +78,18 @@ body {
     border-bottom: 2.1em solid transparent;
     border-right: 2.4em solid #401b03;
 }
+.pumpkin .mouth{
+    border-bottom: 1em solid #401b03 ;
+    position: absolute;
+    width: 4em;
+    height: 2em;
+    bottom: 1.5em;
+}
+.pumpkin .mouth.right {
+    right: 3.6em;
+    border-radius: 0 0 100% 0;
+  }
+  .pumpkin .mouth.left {
+    left: 3.6em;
+    border-radius: 0 0 0 100%;
+  }
