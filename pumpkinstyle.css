@@ -160,7 +160,6 @@ body {
     width: 260px;
     border: 6px solid rgb(45, 9, 70);
     padding: 80px 0px;
-    margin: -500px auto;
     border-radius: 50%;
     text-align: center;
     font-size: 25px;
@@ -168,8 +167,8 @@ body {
     font-family: Butcherman;
     position: relative;
     color: white;
-    left:50px;
-    bottom:0px;
+    left:150px;
+    bottom:220px;
   }
   
   .circle3 {
