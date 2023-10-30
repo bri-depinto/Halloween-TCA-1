@@ -17,11 +17,11 @@ body {
 .pumpkin{
     height: 11em;
     width: 15em;
-    background: #f68632;
-    border: 0.4em solid #a14907;
+    background: rgb(182, 0, 0);
+    border: 0.4em solid rgb(218, 35, 35);
     border-radius: 70%/110%;
     position: relative;
-    box-shadow: inset 0 0 20px #a14907, 0 0 30px -4px red;
+    box-shadow: inset 0 0 20px #e15252, 0 0 30px -4px rgb(255, 255, 255);
     z-index: 3;
     animation: float 3s infinite; 
 }
@@ -32,8 +32,8 @@ body {
     bottom: -0.4em;
     left: 4em;
     border-radius: 70%/130%;
-    border-bottom: 0.5em solid #a14907;
-    border-top: 0.5em solid #a14907;
+    border-bottom: 0.5em solid rgb(218, 35, 35);;
+    border-top: 0.5em solid rgb(218, 35, 35);;
 }
 .pumpkin .texture::after{
     content:'';
@@ -44,8 +44,8 @@ body {
     bottom: -0.4em;
     left: -2.5em;
     border-radius: 70%/130%;
-    border-bottom: 0.5em solid #a14907;
-    border-top: 0.5em solid #a14907;
+    border-bottom: 0.5em solid rgb(218, 35, 35);;
+    border-top: 0.5em solid rgb(218, 35, 35);;
 }
 .pumpkin .root{
     background: #517f54;
@@ -68,7 +68,7 @@ body {
 }
 .pumpkin .eye.right{
     right: 3.7em;
-    border-left: 2.4em solid #401b03;
+    border-left: 2.4em solid black;
     border-bottom: 2.1em solid transparent;
     transform: rotate(30deg);
 }
@@ -76,10 +76,10 @@ body {
     left:3.7em;
     transform: rotate(-30deg);
     border-bottom: 2.1em solid transparent;
-    border-right: 2.4em solid #401b03;
+    border-right: 2.4em solid black;
 }
 .pumpkin .mouth{
-    border-bottom: 1em solid #401b03 ;
+    border-bottom: 2em solid black;
     position: absolute;
     width: 4em;
     height: 2em;
@@ -101,7 +101,7 @@ body {
     left: 7.25em;
     border-top: 0.8em solid transparent;
     border-bottom: 0em solid transparent;
-    border-left: 0.8em solid #401d03;
+    border-left: 0.8em solid transparent ;
   }
 
   .pumpkin .teeth:before, .pumpkin .teeth:after {
@@ -115,18 +115,18 @@ body {
 
   .pumpkin .teeth:before {
     right: 2.2em;
-    top: -0.65em;
-    transform: rotate(30deg);
+    top: -1.5em;
+    transform: rotate(-150deg);
     border-bottom: 0.5em solid transparent;
-    border-left: 1em solid #401d03;
+    border-left: 1em solid white;
   }
 
   .pumpkin .teeth:after {
-    left: 1em;
-    top: -0.85em;
-    transform: rotate(30deg);
+    left: 0.5em;
+    top: -1.5em;
+    transform: rotate(190deg);
     border-bottom: 0.5em solid transparent;
-    border-left: 1em solid #401d03;
+    border-left: 1em solid white;
   }
   .shadow {
     margin:10% auto 0;
